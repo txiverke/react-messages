@@ -1,6 +1,6 @@
 {
   "name": "react-messages",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React Component to render messages",
   "main": "index.js",
   "scripts": {
@@ -44,6 +44,6 @@
     "webpack-cli": "^2.0.10"
   },
   "jest": {
-    "setupTestFrameworkScriptFile": "<rootDir>/src/setupTests.js"
+    "setupTestFrameworkScriptFile": "<rootDir>setupTests.js"
   }
 }
