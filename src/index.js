@@ -23,7 +23,11 @@ class ReactMessages extends React.PureComponent {
   }
 
   componentDidMount() {
-    this.setValues(this.props)
+    const { next } = this.props
+    
+    if (next) {
+      this.setValues(this.props)
+    }
   }
 
   componentWillReceiveProps(nextProps: Object) {
@@ -53,7 +57,7 @@ class ReactMessages extends React.PureComponent {
   }
  
   render() {
-    const { error } = this.props
+    const { error, next } = this.props
     const { hidden, message } = this.state
     const style = error ? '-error' : ''
     const icon = error ? 'alert-triangle' : 'like'
