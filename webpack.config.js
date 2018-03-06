@@ -3,9 +3,11 @@
 const path = require("path")
 
 module.exports = {
-  entry: ["./src/app.js"],
+  entry: ["./src/index.js"],
   output: {
-    filename: "bundle.js"
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'bundle.js',
+    libraryTarget: 'commonjs2'
   },
   module: {
     rules: [
@@ -17,5 +19,8 @@ module.exports = {
         }
       }
     ]
+  },
+  externals: {
+    'react': 'commonjs react' 
   }
 };

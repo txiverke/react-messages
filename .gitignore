@@ -8,9 +8,6 @@
 /coverage
 /src/__tests__/__snapshots__
 
-# production
-/dist
-
 # misc
 .DS_Store
 
