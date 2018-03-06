@@ -7,7 +7,7 @@
     "dev": "webpack --watch --mode development",
     "build": "webpack --mode production",
     "flow": "flow",
-    "test": "jest --watch --coverage"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
