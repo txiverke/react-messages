@@ -1,6 +1,6 @@
 {
   "name": "react-messages",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "React Component to render messages",
   "main": "dist/bundle.js",
   "scripts": {
