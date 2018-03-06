@@ -1,8 +1,8 @@
 {
   "name": "react-messages",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "React Component to render messages",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "dev": "webpack --watch --mode development",
     "build": "webpack --mode production",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/txiverke/react-messages.git"
+    "url": "git+https://github.com/txiverke/react-messages.git"
   },
   "keywords": [
     "React"
