@@ -5,7 +5,7 @@ React message widget
 
 ## Install
 
-npm install react-messages
+`npm install react-messages`
 
 ## Example
 
