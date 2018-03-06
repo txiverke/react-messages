@@ -1,3 +1,7 @@
 language: node_js
 node_js: node
 script: yarn test && yarn build
+deploy:
+  provider: npm
+  email: "xavi.vila.albiol@gmail.com"
+  api_key: "6NYgGJrVWbl9qvzdvqCCBQ"
