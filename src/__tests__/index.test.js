@@ -23,6 +23,6 @@ describe('<ReactMessages />', () => {
     const message = 'Just a fake message'
     const next = false
     const component = shallow(<ReactMessages message={message} next={next} />)
-    expect(component.find('.app-message').length).toEqual(0)
+    expect(component.find('.msg-wrapper').length).toEqual(0)
   })
 })

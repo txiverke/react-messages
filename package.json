@@ -7,7 +7,7 @@
     "dev": "webpack --watch --mode development",
     "build": "webpack --watch --mode production",
     "flow": "flow",
-    "test": "jest"
+    "test": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -47,6 +47,9 @@
     "webpack-cli": "^2.0.10"
   },
   "jest": {
-    "setupTestFrameworkScriptFile": "<rootDir>setupTests.js"
+    "setupTestFrameworkScriptFile": "<rootDir>setupTests.js",
+    "moduleNameMapper": {
+      "\\.(css|less)$": "<rootDir>/src/__mocks__/styleMock.js"
+    }
   }
 }

@@ -7,6 +7,7 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <ReactMessages
     duration={2000}
     error={true}
+    icon="love"
     message="Just a fake message"
     next={true}
   />,
@@ -23,18 +24,18 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": <p
-        className="app-message-item txt-message-error "
+        className="msg-item msg-item-error "
       >
         <span
-          className="mr5 icon-alert-triangle"
+          className="msg-txt icon-love"
         />
         <span
-          className="app-message-txt test"
+          className="msg-txt"
         >
           Just a fake message
         </span>
       </p>,
-      "className": "app-message",
+      "className": "msg-wrapper",
     },
     "ref": null,
     "rendered": Object {
@@ -44,15 +45,15 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <span
-            className="mr5 icon-alert-triangle"
+            className="msg-txt icon-love"
           />,
           <span
-            className="app-message-txt test"
+            className="msg-txt"
           >
             Just a fake message
           </span>,
         ],
-        "className": "app-message-item txt-message-error ",
+        "className": "msg-item msg-item-error ",
       },
       "ref": null,
       "rendered": Array [
@@ -61,7 +62,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "className": "mr5 icon-alert-triangle",
+            "className": "msg-txt icon-love",
           },
           "ref": null,
           "rendered": null,
@@ -73,7 +74,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Just a fake message",
-            "className": "app-message-txt test",
+            "className": "msg-txt",
           },
           "ref": null,
           "rendered": "Just a fake message",
@@ -91,18 +92,18 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <p
-          className="app-message-item txt-message-error "
+          className="msg-item msg-item-error "
         >
           <span
-            className="mr5 icon-alert-triangle"
+            className="msg-txt icon-love"
           />
           <span
-            className="app-message-txt test"
+            className="msg-txt"
           >
             Just a fake message
           </span>
         </p>,
-        "className": "app-message",
+        "className": "msg-wrapper",
       },
       "ref": null,
       "rendered": Object {
@@ -112,15 +113,15 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <span
-              className="mr5 icon-alert-triangle"
+              className="msg-txt icon-love"
             />,
             <span
-              className="app-message-txt test"
+              className="msg-txt"
             >
               Just a fake message
             </span>,
           ],
-          "className": "app-message-item txt-message-error ",
+          "className": "msg-item msg-item-error ",
         },
         "ref": null,
         "rendered": Array [
@@ -129,7 +130,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "className": "mr5 icon-alert-triangle",
+              "className": "msg-txt icon-love",
             },
             "ref": null,
             "rendered": null,
@@ -141,7 +142,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "Just a fake message",
-              "className": "app-message-txt test",
+              "className": "msg-txt",
             },
             "ref": null,
             "rendered": "Just a fake message",
