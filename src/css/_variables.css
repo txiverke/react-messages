@@ -1,0 +1,7 @@
+:root {
+  --textColor: #ffffff;
+  --bgColor: #4ECDC4;
+  --bgColorDark: rgb(48, 158, 151);
+  --errorColor: #ff3366;
+  --errorColorDark: #af0d36;
+}

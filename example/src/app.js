@@ -1,3 +1,5 @@
+// @flow
+
 import React from 'react'
 import ReactDOM from 'react-dom'
 import ReactMessages from 'react-messages'
@@ -12,7 +14,7 @@ class App extends React.PureComponent {
   handleChange = (e) => {
     const newMessage = e.target.value
 
-    this.setState({ newMessage })
+    this.setState({ newMessage, next: false })
   }
 
   handleClick = () => {

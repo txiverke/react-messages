@@ -2,6 +2,8 @@
 
 import React from 'react'
 
+import './css/index.css'
+
 class ReactMessages extends React.PureComponent {
   state = {
     message: '',
@@ -13,11 +15,13 @@ class ReactMessages extends React.PureComponent {
   props: {
     message: string,
     next: boolean,
+    icon: string,
     error?: boolean,
     duration?: number,
   }
 
   static defaultProps = {
+    icon: 'love',
     error: true,
     duration: 2000,
   }
@@ -57,18 +61,17 @@ class ReactMessages extends React.PureComponent {
   }
  
   render() {
-    const { error, next } = this.props
+    const { error, next, icon } = this.props
     const { hidden, message } = this.state
     const style = error ? '-error' : ''
-    const icon = error ? 'alert-triangle' : 'like'
     const classHidden = hidden ? 'hidden' : ''
 
     if (!hidden && message) {
       return (
-        <div className="app-message">
-          <p className={`app-message-item txt-message${style} ${classHidden}`}>
-            <span className={`mr5 icon-${icon}`}></span>
-            <span className="app-message-txt test">{message}</span>
+        <div className="msg-wrapper">
+          <p className={`msg-item msg-item${style} ${classHidden}`}>
+            <span className={`msg-txt icon-${icon}`}></span>
+            <span className="msg-txt">{message}</span>
           </p>
         </div>
       )
