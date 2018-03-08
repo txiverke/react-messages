@@ -2,8 +2,7 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom'
-//import ReactMessages from 'react-messages'
-import ReactMessages from '../../dist/bundle'
+import ReactMessages from 'react-messages'
 
 class App extends React.PureComponent {
   state = {
