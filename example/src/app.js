@@ -2,7 +2,8 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom'
-import ReactMessages from 'react-messages'
+//import ReactMessages from 'react-messages'
+import ReactMessages from '../../dist/bundle'
 
 class App extends React.PureComponent {
   state = {
@@ -36,7 +37,7 @@ class App extends React.PureComponent {
         <p>Fill the input and Press the button to render a new message</p>
         <input onChange={this.handleChange} value={newMessage} />
         <button onClick={this.handleClick}>New Message</button>
-        <ReactMessages message={message} next={next} />
+        <ReactMessages message={message} next={next} error={false} icon={'warning'}/>
       </div>
     )
   }

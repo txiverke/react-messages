@@ -22,7 +22,7 @@ class ReactMessages extends React.PureComponent {
 
   static defaultProps = {
     icon: 'love',
-    error: true,
+    error: false,
     duration: 2000,
   }
 
@@ -68,10 +68,10 @@ class ReactMessages extends React.PureComponent {
 
     if (!hidden && message) {
       return (
-        <div className="msg-wrapper">
-          <p className={`msg-item msg-item${style} ${classHidden}`}>
-            <span className={`msg-txt icon-${icon}`}></span>
-            <span className="msg-txt">{message}</span>
+        <div className="rm-wrapper">
+          <p className={`rm-item ${style} ${classHidden}`}>
+            <span className={`rm-txt icon-rm-${icon}`}></span>
+            <span className="rm-txt">{message}</span>
           </p>
         </div>
       )

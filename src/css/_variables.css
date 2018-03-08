@@ -1,7 +1,7 @@
 :root {
-  --textColor: #ffffff;
-  --bgColor: #4ECDC4;
-  --bgColorDark: rgb(48, 158, 151);
-  --errorColor: #ff3366;
-  --errorColorDark: #af0d36;
+  --rm-textColor: #ffffff;
+  --rm-bgColor: #4ECDC4;
+  --rm-bgColorDark: rgb(48, 158, 151);
+  --rm-errorColor: #ff3366;
+  --rm-errorColorDark: #af0d36;
 }

@@ -24,18 +24,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-love:before {
+.icon-rm-love:before {
   content: "\e900";
 }
-.icon-warning:before {
+.icon-rm-warning:before {
   content: "\e901";
 }
-.icon-info:before {
+.icon-rm-info:before {
   content: "\e902";
 }
-.icon-thumbs-up:before {
+.icon-rm-thumbs-up:before {
   content: "\e903";
 }
-.icon-thumbs-down:before {
+.icon-rm-thumbs-down:before {
   content: "\e904";
 }

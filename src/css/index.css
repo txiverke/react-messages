@@ -1,13 +1,7 @@
 @import './_variables.css';
 @import './icons.css';
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 100;
-  font-size: 16px;
-}
-
-.msg-wrapper {
+.rm-wrapper {
   position: fixed;
   top: 5rem;
   left: 50%;
@@ -16,22 +10,26 @@ body {
   z-index: 1;
 }
 
-.msg-item,
-.msg-item-error {
+.rm-item,
+.rm-item-error {
   position: relative;
-  background: var(--bgColor);
-  color: var(--textColor);
-  border: 2px solid var(--bgColorDark);
+  background: var(--rm-bgColor);
+  color: var(--rm-textColor);
+  border: 2px solid var(--rm-bgColorDark);
   border-radius: 5px;
   padding: 1rem;
 }
-.msg-item-error {
-  background: var(--errorColor);
-  border: 2px solid var(--errorColorDark);
+.rm-item-error {
+  background: var(--rm-errorColor);
+  border: 2px solid var(--rm-errorColorDark);
 }
-.msg-txt {
-  color: var(--textColor);
+.rm-txt {
+  color: var(--rm-textColor);
   font-size: 1rem;
   text-shadow: 0px 0px 8px rgba(0, 0, 0, 1);
   margin-left: 0.5rem;
+}
+
+.hidden {
+  display: none;
 }
