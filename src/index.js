@@ -21,7 +21,7 @@ class ReactMessages extends React.PureComponent {
   }
 
   static defaultProps = {
-    icon: 'love',
+    icon: 'heart',
     error: false,
     duration: 2000,
   }
