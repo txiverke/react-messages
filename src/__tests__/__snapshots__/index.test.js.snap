@@ -7,7 +7,7 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <ReactMessages
     duration={2000}
     error={false}
-    icon="love"
+    icon="heart"
     message="Just a fake message"
     next={true}
   />,
@@ -27,7 +27,7 @@ ShallowWrapper {
         className="rm-item  "
       >
         <span
-          className="rm-txt icon-rm-love"
+          className="rm-txt icon-rm-heart"
         />
         <span
           className="rm-txt"
@@ -45,7 +45,7 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <span
-            className="rm-txt icon-rm-love"
+            className="rm-txt icon-rm-heart"
           />,
           <span
             className="rm-txt"
@@ -62,7 +62,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "className": "rm-txt icon-rm-love",
+            "className": "rm-txt icon-rm-heart",
           },
           "ref": null,
           "rendered": null,
@@ -95,7 +95,7 @@ ShallowWrapper {
           className="rm-item  "
         >
           <span
-            className="rm-txt icon-rm-love"
+            className="rm-txt icon-rm-heart"
           />
           <span
             className="rm-txt"
@@ -113,7 +113,7 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <span
-              className="rm-txt icon-rm-love"
+              className="rm-txt icon-rm-heart"
             />,
             <span
               className="rm-txt"
@@ -130,7 +130,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "className": "rm-txt icon-rm-love",
+              "className": "rm-txt icon-rm-heart",
             },
             "ref": null,
             "rendered": null,

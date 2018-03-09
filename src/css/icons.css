@@ -24,18 +24,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-heart:before {
+.icon-rm-heart:before {
   content: "\e1000";
 }
-.icon-warning:before {
+.icon-rm-warning:before {
   content: "\e1001";
 }
-.icon-info:before {
+.icon-rm-info:before {
   content: "\e1002";
 }
-.icon-thumbs-up:before {
+.icon-rm-thumbs-up:before {
   content: "\e1003";
 }
-.icon-thumbs-down:before {
+.icon-rm-thumbs-down:before {
   content: "\e1004";
 }
