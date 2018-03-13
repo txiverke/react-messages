@@ -24,7 +24,7 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": <p
-        className="rm-item  "
+        className="rm-item "
       >
         <span
           className="rm-txt icon-rm-heart"
@@ -53,7 +53,7 @@ ShallowWrapper {
             Just a fake message
           </span>,
         ],
-        "className": "rm-item  ",
+        "className": "rm-item ",
       },
       "ref": null,
       "rendered": Array [
@@ -92,7 +92,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <p
-          className="rm-item  "
+          className="rm-item "
         >
           <span
             className="rm-txt icon-rm-heart"
@@ -121,7 +121,7 @@ ShallowWrapper {
               Just a fake message
             </span>,
           ],
-          "className": "rm-item  ",
+          "className": "rm-item ",
         },
         "ref": null,
         "rendered": Array [

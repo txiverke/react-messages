@@ -69,7 +69,7 @@ class ReactMessages extends React.PureComponent {
     if (!hidden && message) {
       return (
         <div className="rm-wrapper">
-          <p className={`rm-item ${style} ${classHidden}`}>
+          <p className={`rm-item${style} ${classHidden}`}>
             <span className={`rm-txt icon-rm-${icon}`}></span>
             <span className="rm-txt">{message}</span>
           </p>

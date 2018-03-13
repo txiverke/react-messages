@@ -36,7 +36,13 @@ class App extends React.PureComponent {
         <p>Fill the input and Press the button to render a new message</p>
         <input onChange={this.handleChange} value={newMessage} />
         <button onClick={this.handleClick}>New Message</button>
-        <ReactMessages message={message} next={next} error={false} icon={'warning'}/>
+        <ReactMessages 
+          message={message} 
+          next={next} 
+          error={true} 
+          icon={'warning'}
+          duration={100000}
+        />
       </div>
     )
   }
