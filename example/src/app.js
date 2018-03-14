@@ -24,9 +24,9 @@ class App extends React.PureComponent {
     this.setState({ duration, next: false })
   }
 
-  handleError = (e) => {
-    const error = e.target.value
-    this.setState({ error, next: false })
+  handleError = () => {
+    const { error } = this.state
+    this.setState({ error: !error, next: false })
   }
 
   handleChange = (e) => {
@@ -80,9 +80,9 @@ class App extends React.PureComponent {
         <br />
         <label htmlFor="error">
           Choose if the message is an error:
-          <input onChange={this.handleError} type="radio" name="error" value="true" checked={error && 'checked' } /> Is an error &nbsp;
-          <input onChange={this.handleError} type="radio" name="error" value="false" checked={!error && 'checked' }/> Is not an error
-        </label>
+          <input onChange={this.handleError} type="radio" name="error" value={true} checked={error === true}/> Is an error &nbsp;
+            <input onChange={this.handleError} type="radio" name="error" value={false} checked={error === false}/> Is not an error
+          </label>
         <p>Fill the input and Press the button to render a new message</p>
         <input onChange={this.handleChange} value={newMessage} />
         <button onClick={this.handleClick}>New Message</button>
