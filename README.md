@@ -8,6 +8,10 @@ React message widget
 
 `npm install react-messages`
 
+## Demo
+
+https://www.xaviervila.tech/projects/react-messages-5aa0874985314f0e3ac598d4
+
 ## Example
 ```js
 // @flow
