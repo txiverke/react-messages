@@ -10,7 +10,7 @@ React message widget
 
 ## Demo
 
-* [Try the demo](https://www.xaviervila.tech/projects/react-messages-5aa0874985314f0e3ac598d4)
+* [Try the demo](https://www.xaviervila.tech/react-messages-5aa0874985314f0e3ac598d4)
 
 ## Example
 ```js
